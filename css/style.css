@@ -26,21 +26,24 @@ header .logo {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .Maneliimage {
     outline: 1px solid red;
     width: 50%;
-    padding-top: 168px;
-    padding-left: 344px;
+    text-align: right;
+    /*padding-top: 168px;
+    padding-left: 344px;*/
 }
 
 .text {
     float: right;
     outline: 1px solid rgb(255, 0, 0);
     font-weight: bold;
-    width: 90%;
-    padding-top: 168px;
+    width: 50%;
+   /* padding-top: 168px;*/
     letter-spacing: 10px;
 }
 
