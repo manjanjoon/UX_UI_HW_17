@@ -10,14 +10,18 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 250px 50px 250px;
 }
 
 header .logo {
     width: 50px; 
     height: auto; 
-    padding-left: 68px;
+    padding: 10px;
 }
 
+.logo {
+    outline: 1px solid red;
+}
 .twoColumns {
     display: flex;
     flex-direction: row;
